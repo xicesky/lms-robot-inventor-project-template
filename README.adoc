@@ -1,0 +1,24 @@
+
+= Project template
+:source-highlighter: rouge
+:source-language: shell
+:icons: font
+:toc: left
+:sectanchors:
+:star: *
+Markus Dangl <markus.r.dangl@gmail.com>
+
+Project template for LEGO Mindstorms robot inventor
+
+Apparently all the APIs and API docs i found are incompatible with the hub i have.
+So i'm trying to recreate the API here to at least have some code completion.
+
+== Compatible hubs
+
+Reading out the /version.py via https://github.com/dhylands/rshell[rshell] on the hub gives me:
+
+[source,python]
+----
+""" GENERATED """
+__version = "3.1.43"
+----
